@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/cyclingFragment"
+            android:icon="@drawable/cycling_24"
+            android:title="Cycling" />
+        <item
+            android:id="@+id/busFragment"
+            android:icon="@drawable/bus_24"
+            android:title="Bus" />
+        <item
+            android:id="@+id/planeFragment"
+            android:icon="@drawable/plane_24"
+            android:title="Plane" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item android:id="@+id/loginFragment"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Log In" />
+        </menu>
+    </item>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/shareFragment"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/rateFragment"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="Rate US" />
+        </menu>
+    </item>
+
+</menu>
